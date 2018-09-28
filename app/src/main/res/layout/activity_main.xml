@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/head"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:textAppearance="@android:style/TextAppearance.Large"
+        android:textStyle="bold"
+        android:text="Data Mahasiswa"
+        android:textAlignment="center" />
+
+
+    <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/photo"
+        android:layout_width="103dp"
+        android:layout_height="170dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/crismunianto" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/photo"
+        android:layout_marginLeft="113dp"
+        android:layout_marginTop="10dp"
+        android:text="Nama       : Andriyan Crismunianto"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/photo"
+        android:layout_marginLeft="113dp"
+        android:layout_marginTop="10dp"
+        android:text="Nim          : A11.2016.09475"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/photo"
+            android:layout_marginLeft="113dp"
+            android:layout_marginTop="10dp"
+            android:text="Hobby      : Futsal,Volley"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/photo"
+            android:layout_marginLeft="113dp"
+            android:layout_marginTop="10dp"
+            android:text="Diskripsi  : Mahasiswa Aktif Udinus"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/photo"
+            android:layout_marginLeft="113dp"
+            android:layout_marginTop="10dp"
+            android:text="Alamat     : Tubanan Rt 07/04 Jepara"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</RelativeLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="phoneNumber"
+        android:text="Nomer Telepon"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="urlWeb"
+        android:text="WEBSITE" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="homeLocation"
+        android:text="alamat rumah" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="email"
+        android:text="email" />
+
+
+</LinearLayout>
